@@ -10,6 +10,8 @@ public class App {
         System.out.println("bye, buddy!");
 
         System.out.println(generateRandomGroups(readFile("Student List.txt"),4));
+        System.out.println("done");
+
     }
 
     public static ArrayList<String> readFile(String filename){
